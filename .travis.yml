@@ -1,3 +1,6 @@
 language: objective-c
 xcode_project: TestTravisCI.xcodeproj
-xcode_scheme: TestTravisCITests
+osx_image: xcode8
+ 
+script:
+  - xcodebuild test -project TestTravisCI.xcodeproj -scheme TestTravisCI -sdk iphonesimulator10.0 -destination 'platform=iOS Simulator,name=iPhone 7' | xcpretty -c
