@@ -1,2 +1,2 @@
 # TestTravisCI
-![Travis CI](https://travis-ci.org/austinzheng/Cormorant.svg?branch=master)
+![Travis CI](https://travis-ci.org/ArchyVan/TestTravisCI.svg?branch=master)
