@@ -20,6 +20,20 @@
                ReferencedContainer = "container:TestTravisCI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8162049E1DB4AEE10069F223"
+               BuildableName = "TestTravisCITests.xctest"
+               BlueprintName = "TestTravisCITests"
+               ReferencedContainer = "container:TestTravisCI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
