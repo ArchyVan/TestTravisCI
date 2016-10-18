@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8138A3DC1DB67D960092B87C /* TestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8138A3DB1DB67D960092B87C /* TestManager.m */; };
 		8162048B1DB4AEE00069F223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8162048A1DB4AEE00069F223 /* main.m */; };
 		8162048E1DB4AEE00069F223 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8162048D1DB4AEE00069F223 /* AppDelegate.m */; };
 		816204911DB4AEE00069F223 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816204901DB4AEE00069F223 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8138A3DA1DB67D960092B87C /* TestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestManager.h; sourceTree = "<group>"; };
+		8138A3DB1DB67D960092B87C /* TestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestManager.m; sourceTree = "<group>"; };
 		816204861DB4AEE00069F223 /* TestTravisCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTravisCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8162048A1DB4AEE00069F223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8162048C1DB4AEE00069F223 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				8162048D1DB4AEE00069F223 /* AppDelegate.m */,
 				8162048F1DB4AEE00069F223 /* ViewController.h */,
 				816204901DB4AEE00069F223 /* ViewController.m */,
+				8138A3DA1DB67D960092B87C /* TestManager.h */,
+				8138A3DB1DB67D960092B87C /* TestManager.m */,
 				816204921DB4AEE00069F223 /* Main.storyboard */,
 				816204951DB4AEE00069F223 /* Assets.xcassets */,
 				816204971DB4AEE00069F223 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				816204911DB4AEE00069F223 /* ViewController.m in Sources */,
 				8162048E1DB4AEE00069F223 /* AppDelegate.m in Sources */,
 				8162048B1DB4AEE00069F223 /* main.m in Sources */,
+				8138A3DC1DB67D960092B87C /* TestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +513,7 @@
 				816204B51DB4AEE10069F223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		816204B61DB4AEE10069F223 /* Build configuration list for PBXNativeTarget "TestTravisCITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				816204B81DB4AEE10069F223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		816204B91DB4AEE10069F223 /* Build configuration list for PBXNativeTarget "TestTravisCIUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				816204BB1DB4AEE10069F223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
