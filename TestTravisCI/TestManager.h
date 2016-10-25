@@ -8,8 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NSString *(^TestBlock)(NSString *test);
+typedef void(^BlockBlock)(TestBlock block);
+
 @interface TestManager : NSObject
 
-- (NSString *)methodOne;
+- (TestManager *(^)())methodOne;
+
+- (TestManager *(^)(NSString *message))methodTwo;
+
+- (TestManager *(^)(TestBlock block))methodThird;
+
+- (TestManager *(^)(BlockBlock block))methodFourth;
 
 @end

@@ -20,10 +20,16 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    NSLog(@"%@",[[TestManager new] methodOne]);
+    TestManager *manager = [TestManager new];
+    manager.methodOne().methodTwo(@"Archy").methodOne().methodThird(^(NSString *test){
+        NSLog(@"123-%@",test);
+        return [NSString stringWithFormat:@"123-%@",test];
+    }).methodFourth(^(TestBlock block){
+        NSLog(@"Test Block");
+        block(@"Hello");
+    });
 }
 
 
